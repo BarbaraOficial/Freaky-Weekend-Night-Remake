@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="template3.png">
+<SubTexture name="monster down0000" x="5" y="5" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+<SubTexture name="monster down0001" x="735" y="5" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+<SubTexture name="monster down0002" x="1465" y="5" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+<SubTexture name="monster up0000" x="2195" y="5" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+<SubTexture name="monster up0001" x="5" y="735" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+<SubTexture name="monster up0002" x="735" y="735" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+<SubTexture name="monster right0000" x="1465" y="735" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+<SubTexture name="monster right0001" x="2195" y="735" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+<SubTexture name="monster right0002" x="5" y="1465" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+<SubTexture name="monster left0000" x="735" y="1465" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+<SubTexture name="monster left0001" x="1465" y="1465" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+<SubTexture name="monster left0002" x="2195" y="1465" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+<SubTexture name="monster idle0000" x="5" y="2195" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+<SubTexture name="monster idle0001" x="735" y="2195" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+<SubTexture name="monster idle0002" x="1465" y="2195" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+<SubTexture name="monster idle0003" x="2195" y="2195" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+<SubTexture name="monster idle0004" x="2925" y="5" width="720" height="720" frameX="0" frameY="0" frameWidth="644" frameHeight="364" />
+</TextureAtlas>

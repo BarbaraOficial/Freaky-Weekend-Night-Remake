@@ -1,0 +1,22 @@
+{
+	"songs": [
+		["Midnight", "skid", [146, 113, 253]],
+		["Trapped", "pump", [146, 113, 253]],
+		["Yourself", "yourself", [146, 113, 253]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "halloween",
+
+	"storyName": "Daddy Dearest",
+	"weekBefore": "week1",
+	"weekName": "Week 2",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

@@ -1,78 +1,78 @@
 {
-  "animations": [
-    {
-      "offsets": [
-        0,
-        0
-      ],
-      "loop": false,
-      "anim": "singLEFT",
-      "fps": 12,
-      "name": "monster left",
-      "indices": []
-    },
-    {
-      "offsets": [
-        0,
-        0
-      ],
-      "loop": false,
-      "anim": "singDOWN",
-      "fps": 12,
-      "name": "monster down",
-      "indices": []
-    },
-    {
-      "offsets": [
-        0,
-        0
-      ],
-      "loop": false,
-      "anim": "singUP",
-      "fps": 12,
-      "name": "monster up",
-      "indices": []
-    },
-    {
-      "offsets": [
-        0,
-        0
-      ],
-      "loop": false,
-      "anim": "singRIGHT",
-      "fps": 12,
-      "name": "monster right",
-      "indices": []
-    },
-    {
-      "loop": false,
-      "offsets": [
-        0,
-        0
-      ],
-      "anim": "idle",
-      "fps": 12,
-      "name": "monster idle",
-      "indices": []
-    }
-  ],
-  "no_antialiasing": false,
-  "image": "characters/yourself",
-  "position": [
-    -110,
-    200
-  ],
-  "healthicon": "yourself",
-  "flip_x": false,
-  "healthbar_colors": [
-    0,
-    0,
-    0
-  ],
-  "camera_position": [
-    180,
-    180
-  ],
-  "sing_duration": 4,
-  "scale": 0.999999999999999
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				0
+			],
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "monster left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "monster down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				10
+			],
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "monster up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				0
+			],
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "monster right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "monster idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/yourself",
+	"position": [
+		-110,
+		200
+	],
+	"healthicon": "yourself",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		180,
+		180
+	],
+	"sing_duration": 4,
+	"scale": 0.999999999999999
 }

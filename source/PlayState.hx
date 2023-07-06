@@ -537,11 +537,8 @@ class PlayState extends MusicBeatState
 				dadbattleSmokes = new FlxSpriteGroup(); //troll'd
 
 			case 'spooky': //Week 2
-				if(!ClientPrefs.lowQuality) {
-					halloweenBG = new BGSprite('halloween_bg', -200, -100, ['halloweem bg0', 'halloweem bg lightning strike']);
-				} else {
-					halloweenBG = new BGSprite('halloween_bg_low', -200, -100);
-				}
+				halloweenBG = new BGSprite('halloween_bg_low', -200, -100);
+				
 				add(halloweenBG);
 
 				halloweenWhite = new BGSprite(null, -800, -400, 0, 0);

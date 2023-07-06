@@ -1,0 +1,78 @@
+{
+  "animations": [
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "loop": false,
+      "anim": "singLEFT",
+      "fps": 12,
+      "name": "bonesinho left",
+      "indices": []
+    },
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "loop": false,
+      "anim": "singDOWN",
+      "fps": 12,
+      "name": "bonesinho down",
+      "indices": []
+    },
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "loop": false,
+      "anim": "singUP",
+      "fps": 12,
+      "name": "bonesinho up",
+      "indices": []
+    },
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "loop": false,
+      "anim": "singRIGHT",
+      "fps": 12,
+      "name": "bonesinho right",
+      "indices": []
+    },
+    {
+      "loop": false,
+      "offsets": [
+        0,
+        0
+      ],
+      "anim": "idle",
+      "fps": 12,
+      "name": "bonesinho idle",
+      "indices": []
+    }
+  ],
+  "no_antialiasing": false,
+  "image": "characters/skid",
+  "position": [
+    -50,
+    220
+  ],
+  "healthicon": "skid",
+  "flip_x": false,
+  "healthbar_colors": [
+    235,
+    15,
+    115
+  ],
+  "camera_position": [
+    160,
+    200
+  ],
+  "sing_duration": 6.1,
+  "scale": 0.899999999999999
+}

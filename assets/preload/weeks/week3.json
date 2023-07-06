@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Freckles", "pico", [146, 113, 253]],
+		["Lo-temper", "pico", [146, 113, 253]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "philly",
+
+	"storyName": "Bora jogar um fut?",
+	"weekBefore": "week2",
+	"weekName": "Week 3",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

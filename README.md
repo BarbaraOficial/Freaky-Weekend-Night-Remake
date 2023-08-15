@@ -1,7 +1,7 @@
 # Freaky Weekend Night'
 
 ![](https://a.imagem.app/bgF888.md.png)
-[![Junte-se ao servidor do discord da BarbaraOficial](https://img.shields.io/discord/641256914684084234.svg?label=&logo=discord&logoColor=ffffff&color=5865F2)](https://discord.gg/xeDVn5mgD6)
+[![Junte-se ao servidor do discord da BarbaraOficial](https://img.shields.io/discord/1135583978619932703.svg?label=&logo=discord&logoColor=ffffff&color=5865F2)](https://discord.gg/xeDVn5mgD6)
 
 É so um remake de um mod de friday night funkin
 

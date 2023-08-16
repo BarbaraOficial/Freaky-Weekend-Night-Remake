@@ -20,12 +20,14 @@ class ClientPrefs {
 	public static var cursing:Bool = true;
 	public static var violence:Bool = true;
 	public static var camZooms:Bool = true;
+	public static var flashingLightMod:Bool = true;
 	public static var hideHud:Bool = false;
 	public static var noteOffset:Int = 0;
 	public static var arrowHSV:Array<Array<Int>> = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]];
 	public static var vibration:Bool = false;
 	public static var ghostTapping:Bool = true;
 	public static var timeBarType:String = 'Time Left';
+	public static var language:String = 'English';
 	public static var scoreZoom:Bool = true;
 	public static var noReset:Bool = false;
 	public static var healthBarAlpha:Float = 1;
@@ -121,7 +123,10 @@ class ClientPrefs {
 		FlxG.save.data.healthBarAlpha = healthBarAlpha;
 		FlxG.save.data.comboOffset = comboOffset;
 		FlxG.save.data.achievementsMap = Achievements.achievementsMap;
-		FlxG.save.data.henchmenDeath = Achievements.henchmenDeath;
+		FlxG.save.data.henchmenDeath = Achievements.henchmenDeath
+		
+		FlxG.save.data.language = language;
+		FlxG.save.data.flashingLightMod = flashingLightMod;
 
 		FlxG.save.data.ratingOffset = ratingOffset;
 		FlxG.save.data.sickWindow = sickWindow;
@@ -215,6 +220,12 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.timeBarType != null) {
 			timeBarType = FlxG.save.data.timeBarType;
+		}
+		if(FlxG.save.data.flashingLightMod != null) {
+			flashingLightMod = FlxG.save.data.flashingLightMod;
+		}
+		if(FlxG.save.data.language != null) {
+			language = FlxG.save.data.language;
 		}
 		if(FlxG.save.data.scoreZoom != null) {
 			scoreZoom = FlxG.save.data.scoreZoom;

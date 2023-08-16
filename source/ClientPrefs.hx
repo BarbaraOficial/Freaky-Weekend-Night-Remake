@@ -123,8 +123,7 @@ class ClientPrefs {
 		FlxG.save.data.healthBarAlpha = healthBarAlpha;
 		FlxG.save.data.comboOffset = comboOffset;
 		FlxG.save.data.achievementsMap = Achievements.achievementsMap;
-		FlxG.save.data.henchmenDeath = Achievements.henchmenDeath
-		
+		FlxG.save.data.henchmenDeath = Achievements.henchmenDeath;
 		FlxG.save.data.language = language;
 		FlxG.save.data.flashingLightMod = flashingLightMod;
 

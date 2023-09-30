@@ -10,8 +10,8 @@ on: workflow_dispatch
 jobs:
   # This workflow contains a single job called "build"
 
-  buildAndroid:
-    name: buildAndroid
+  buildAndroidHtml:
+    name: buildAndroidHtml
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -75,7 +75,7 @@ jobs:
           ANDROID_NDK_HOME: ${{ steps.setup-ndk.outputs.ndk-path }}
 
       - name: Compile
-        run: haxelib run lime build html5 -debug NO_PRECOMPILED_HEADERS --app-version="4.0.0-${{ github.run_id}}"
+        run: haxelib run lime build html5 -final
 
       - name: Publish Artifact
         uses: actions/upload-artifact@main

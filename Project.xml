@@ -139,6 +139,11 @@
 	<!--<haxelib name="polymod"/> -->
 	<haxelib name="discord_rpc" if="desktop"/>
 
+	<section if="android">
+		<!--Target SDK-->
+		<android target-sdk-version="31" />
+	</section>
+
 	<!-- Enables a terminal log prompt on debug builds -->
 	<haxelib name="hxcpp-debug-server" if="debug"/>
 

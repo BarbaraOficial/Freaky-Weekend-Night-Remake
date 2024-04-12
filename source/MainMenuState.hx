@@ -26,7 +26,7 @@ using StringTools;
 class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.6.3'; //This is also used for Discord RPC
-    public static var freakyVersion:String = '1.0';
+        public static var freakyVersion:String = '1.1';
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -132,7 +132,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.updateHitbox();
 		}
 
-		FlxG.camera.follow(camFollowPos, null, 1);
+		FlxG.camera.follow(camFollowPos, null, 0);
 
 		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Freaky Weekend Night v" + freakyVersion, 12);
 		versionShit.scrollFactor.set();
